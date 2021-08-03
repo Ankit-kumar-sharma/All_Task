@@ -1,0 +1,208 @@
+*{
+  margin:0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main
+{
+  width: 100%;
+  height:auto;
+  background-color:whitesmoke;
+}
+.container
+{
+width:50%;
+height:auto;
+border:1px solid #bfbfbf;
+margin: auto;
+background-color: white;
+}
+.Notification
+{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color:red;
+}
+.title
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  color: forestgreen;
+}
+
+input[type=text]
+{
+  width:100%;
+  height:35px;
+  border: 1px solid #bfbfbf;
+  border-radius:0px;
+  padding:10px;
+  outline-style: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: forestgreen;
+}
+input[type=text]:hover
+{
+  border: 2px solid forestgreen;
+  border-right:8px solid forestgreen;
+}
+.tagline
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: forestgreen;
+  display: inline-block;
+  margin-top: 20px;
+}
+.addressField
+{
+  width:80%;
+  color: forestgreen;
+  margin-bottom: 100px;
+  border-radius: 2px;
+  border:1px solid #bfbfbf;
+  outline-style: none;
+  padding:20px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.addressField:hover
+{
+  border:2px solid forestgreen;
+  border-radius: 0px;
+}
+.hiddenDiv
+{
+  width:100%;
+  height:200px;
+  border:1px solid #bfbfbf;
+  margin-top: 10px;
+  padding:10px;
+}
+input[type=number]
+{
+  width:30%;
+  height:35px;
+  font-size: 16px;
+  border:1px solid #bfbfbf;
+  padding:10px;
+  border-radius: 0px;
+  color: forestgreen;
+  font-family: 'Times New Roman', Times, serif;
+  outline-style: none;
+}
+input[type="checkbox"]
+{
+  height: 15px;
+  width: 15px;
+  border: 2px solid forestgreen;
+}
+input[type=number]:hover
+{
+  border:2px solid forestgreen;
+  border-right: 8px solid forestgreen;
+}
+input[type=file]::file-selector-button
+{
+  width:100px;
+  height: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  border-radius: 2px;
+  padding:5px;
+  background-color: white;
+  color: forestgreen;
+  border: 1px solid forestgreen;
+  cursor: pointer;
+}
+input[type=file]
+{
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  font-size: 18px;
+  color:forestgreen;
+  border:0px solid #bfbfbf;
+  padding: 10px 5px;
+  border-radius: 2px;
+  outline-style: none;
+}
+input[type=file]::file-selector-button:hover
+{
+  background-color: forestgreen;
+  color: white;
+  border:none;
+}
+.suggest
+{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  color: forestgreen;
+
+}
+.userImage
+{
+  border-radius: 2px;
+  border-radius:100% ;
+}
+.dimen
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: forestgreen;
+}
+.profileImgContainer
+{
+  width:150px;
+  height: 150px;
+  line-height: 150px;
+  border: 1px solid forestgreen;
+  border-radius:100% ;
+  /* background:url(icon-user.png);
+  background-size: contain; */
+  overflow:hidden;
+}
+.Button 
+{
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 5px;
+  background-color: forestgreen;
+  color: white;
+  border-radius: 2px;
+  border:none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding:5px;
+}
+.submitButton
+{
+  width:50%;
+  height:40px;
+  color:white;
+  background-color: forestgreen;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 0px;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+@media (max-width:700px)
+{
+  .container
+  {
+    width: 100%;
+  }
+  .addressField
+  {
+    width: 100%;
+  }
+}

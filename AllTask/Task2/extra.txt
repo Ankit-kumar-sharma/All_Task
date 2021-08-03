@@ -1,0 +1,72 @@
+.rBtn
+{
+    background-color: white;
+}    
+.rBtn:hover
+{
+   background-color: whitesmoke;
+}
+.icon
+        {
+            color:dodgerblue;
+            margin-right: 10px;
+        }   
+       
+       .ricon
+       {
+           float: right;
+           margin-left: 20px;
+           color:#aaaaaa;
+       }
+       .ricon:hover
+       {
+           color: dodgerblue;
+           cursor: pointer;
+       }
+.ic
+       {
+           float: right;
+           margin-left: 20px;
+           color: #aaaaaa;
+           margin-top: 0px;
+       }
+       .ic:hover
+       {
+           color: dodgerblue;
+       }
+       .use
+       {
+           float:left;
+           color: #aaaaaa;
+           margin-right: 10px;
+       }
+       .use:hover
+       {
+           color:dodgerblue;
+       }
+       .icd
+       {
+           margin-left: 5px;
+       }
+       .icd:hover
+       {
+           color: dodgerblue;
+       }
+<div class="header" style=" width:98%;
+height:150px;
+padding:10px; background-color: white; margin:auto;">
+<p style="color:dodgerblue;font-size: 20px;">Welcome to emailformat!</p>
+<a target="popup" onclick="window.open('file:///C:/Users/Dell/Desktop/Task3/EmailFormat.html#','name','width=600,height=400')"><i class="fa fa-external-link fa-lg ricon" aria-hidden="true"></i></a>
+<a onclick="window.print();"><i class="fa fa-print fa-lg ricon" aria-hidden="true"></i></a>
+<br>
+<p style="color:black;"><i class="fa fa-user-circle fa-2x use" aria-hidden="true"></i></i>emailformat@email.jvtinfo.com <a href="#" style="color:dodgerblue">via</a> amazonses.com </p>
+<p style="color:#aaaaaa;">to me<i class="fa fa-caret-down icd" aria-hidden="true"></i></p>
+<a href="#"><i class="fa fa-ellipsis-v fa-lg ic" aria-hidden="true"></i> </a>
+<a href="#"><i class="fa fa-share fa-lg ic" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-star-o fa-lg ic" aria-hidden="true"></i></a>
+
+</div>
+<a class="rBtn" href="#" style="text-decoration: none; color:gray; padding:8px 40px 8px 40px; border:1px solid #aaaaaa; display: inline-block; margin-top: 50px; border-radius: 2px;"><i class="fa fa-reply icon" aria-hidden="true"></i>Reply</a>
+            <a class="rBtn" href="#" style="text-decoration: none; color:gray; padding:8px 35px 8px 35px; border:1px solid #aaaaaa; display: inline-block; border-radius: 2px;"><i class="fa fa-arrow-right icon" aria-hidden="true"></i>Forward</a>
+            <p onmouseover="date()" style="color:gray; margin-top: 10px;"><i>Cursor over here to see date and time :</i> <span id="datetime"></span></p>
+        

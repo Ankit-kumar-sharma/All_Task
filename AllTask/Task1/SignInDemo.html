@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignDemo</title>
+    <link rel="stylesheet" href="signincss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="emailvalidation.js"></script>
+    <script src="newpasswordvalidation.js"></script>
+</head>
+<body onload='document.form1.text1.focus()'>
+    <div id="main">
+        <form onsubmit ="return verifyPassword()" action="file:///C:/Users/Dell/Desktop/Task1/HomePage.html" class="example" name="form1">
+            <i class="fa fa-user fa-2x icon"><span class="login">Login</span></i>
+            <hr class="lhr">
+            <label for="email" class="text1">Email ID</label>
+            <i class="fa fa-envelope fa-2x icon"></i>
+            <input type="text" class="email" placeholder="example@gmail.com" name="text1" id="inbdemo"><br>
+            <p id="errdemo" style="color:white"></p>
+            <label for="password" class="text2"></i>Password</label>
+            <i class="fa fa-lock fa-2x icon"></i>
+            <input type="password" class="password" id="pswd">
+            <p id="message" style="color:white"></p>
+            <br>
+            <input type="submit" id="submit" onmouseover="ValidateEmail(document.form1.text1)" value="submit" required>
+        </form>
+        
+    </div>
+    
+</body>
+</html>

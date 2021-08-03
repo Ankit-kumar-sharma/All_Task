@@ -1,0 +1,296 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.headerNotify
+{
+    width:100%;
+    height:50px;
+    border:1px solid blue;
+}
+
+.header
+{
+    width:100%;
+    height:50px;
+    border:1px solid blue;
+}
+.main
+{
+    width:100%;
+    height:800px;
+    background-color: white;
+}
+.box1
+{
+    width:100%;
+    height:400px;
+    background-color: dodgerblue;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+.img1
+{
+    border-radius: 100%;
+    height:100px;
+    width:100px;
+    margin-top: 20px;
+    border:1px solid white;
+    display: inline-block;
+    line-height: 100px;
+    background-image: url(lap.jpg);
+    background-size: cover;
+}
+.img2
+{
+    border-radius: 100%;
+    height:100px;
+    width:100px;
+    margin-top: 20px;
+    border:1px solid white;
+    display: inline-block;
+    background-image: url(man.png);
+    background-size: cover;
+}
+.img3
+{
+    border-radius: 100%;
+    height:100px;
+    width:100px;
+    margin-top: 20px;
+    border:1px solid white;
+    display: inline-block;
+    background-image: url(money.png);
+    background-size: cover;
+}
+.arrow
+{
+    display: inline-block;
+    width:300px;
+    height:100px;
+    background-image: url(arrow.png);   
+    background-size: cover;
+}
+.box2
+{
+    width:60%;
+    height:100px;
+    margin: auto;
+    margin-top: -50px;
+    border:1px solid #bfbfbf;
+    background-color: white;
+    margin-bottom: 0px;
+    border-radius: 50px;
+    text-align: center;
+    padding:20px; 
+}
+.box3
+{
+    width:100%;
+    height:400px;
+    margin-top: 0px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.emailShare
+{
+    width:50%;
+    height:300px;
+    border-right: 1px dotted dodgerblue;
+    float:left;
+    padding-top: 20px;
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 20px;
+}
+.socialShare
+{
+    width:50%;
+    padding-top: 20px;
+    height:300px;
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 20px;
+    display: inline-block;
+
+}
+.sp
+{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: dodgerblue;
+}
+.cbtn
+{
+    color:#ff9933;
+    background-color: white;
+    width:12%;
+    font-size: 18px;
+    height:50px;
+    margin-left: 2px;
+    border: 1px solid #ff9933;
+    border-radius: 0px;
+    display: inline-block;
+    line-height: 48px;
+    
+}
+.cbtn:hover
+{
+    color:white;
+    background-color: #ff9933;
+    cursor: pointer;
+}
+input[type=text]
+{
+    height:50px;
+    width:60%;
+    border-radius: 0px;
+    padding:10px;
+    outline-width: .5px;
+    outline-color: #ff9933;
+    border:1px solid #bfbfbf;
+    font-size:16px;
+    color: #aaaaaa;
+    margin-top: 3px;
+    font-family:'Times New Roman', Times, serif;
+}
+.Yurl
+{
+    color:gray;
+    font-size: 16px;
+}
+.SBE
+{
+    color:dodgerblue;
+    font-size: 25px;
+}
+input[type=email]
+{
+    width:90%;
+    height:40px;
+    font-size:16px;
+    border-radius: 5px;
+    border:1px solid #aaaaaa;
+    outline-width: 1px;
+    outline-color: blue;
+    padding:10px;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn2
+{
+    width:20%;
+    height:40px;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    color:white;
+    background-color: #ff9933;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.icon
+{
+    color:#ff9933;
+    margin-top: 5px;
+}
+.itext
+{
+    text-decoration: none;
+    font-size: 20px;
+    color:#ff9933;
+    display: inline-block;
+    margin-left: 15px;
+}
+.itext:hover
+{
+    color:dodgerblue;
+}
+@media (max-width:700px)
+{
+ .emailShare
+ {
+     width: 100%;
+     display: block;
+     border-right: 0px;
+ }   
+ .socialShare
+ {
+     width: 100%;
+     display: block;
+     padding-top:0px;
+ }
+ .box3
+ {
+     height:600px;
+     margin-top:100px;
+ }
+ .box2
+ {
+     width:100%;
+     border:0px;
+     border-radius: 0px;
+     height: 200px;
+     background-color: whitesmoke;
+ }
+ .cbtn
+ {
+     display: block;
+     margin: auto;
+     margin-top: 40px;
+     width:130px;
+     border-radius: 5px;
+     height:40px;
+     line-height: 40px;
+     background-color: #ff9933;
+     color:white;
+ }
+ .cbtn:hover
+ {
+    background-color: #ff9933;
+    color:white;
+ }
+ 
+ 
+ .main
+ {
+     height:1000px;
+ 
+}
+.btn2
+{
+    width: 130px;
+
+}
+input[type=email]
+{
+    width: 95%;
+
+}
+input[type=text]
+{
+    width:100%;
+    border-radius:5px;
+}
+.SBE
+{
+    color:dodgerblue;
+    font-size: 20px;
+}
+.icon
+{
+    margin-top:10px;
+}
+.img1,.img2, .img3,.arrow
+{
+    background-image: none;
+    
+    visibility: hidden;
+}
+}

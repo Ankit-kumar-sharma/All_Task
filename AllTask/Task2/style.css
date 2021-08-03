@@ -1,0 +1,255 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    background-color: #f5f5f5;
+}  
+.header
+{
+    max-width: 100%;
+    height:100px;
+    border:1px solid #aaaaaa;
+    border-radius: 1px;
+}
+.main
+{
+    max-width:100%;
+    height:560px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 1px;
+    background-color: blue;
+}
+.box1
+{
+    max-width:100%;
+    height:200px;
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    padding:10px;
+    background-color: #ffb039fd;
+}
+.link
+{
+    margin-top: 20px;
+    display: block;
+}
+.slink
+{
+    margin-top: 20px;
+    display: block;
+}
+.link a
+{
+    text-decoration: none;
+    color:blue;
+    font-size: 18px;
+    background-color:white;
+    border:1px solid blue;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.slink a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    background-color:blue;
+    border:1px solid white;
+    padding:12px;
+    border-radius: 5px;
+    
+}
+.slink a:hover
+{
+    font-size: 21px;
+}
+.link a:hover
+{
+    color:white;
+    background-color: blue;
+    font-size: 21px;
+}
+
+.box2
+{
+    max-width:100%;
+    height:320px;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+.box3
+{
+    max-width:90%;
+    height:300px;
+    background-color:white;
+    margin: auto;
+    border:1px solid #bfbfbf;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.copylink
+{
+    max-width:90%;
+    height:60px;
+    margin: auto;
+    border:1px solid #bfbfbf;
+    background-color: #f5f5f5;
+    margin-top: 1px;
+    text-align: center;
+    justify-content: center;
+}
+input[type=text]
+{
+    height:50px;
+    width:60%;
+    border-radius: 5px;
+    padding:10px;
+    outline-width: 1px;
+    outline-color: blue;
+    border:1px solid #bfbfbf;
+    font-size:16px;
+    color: #aaaaaa;
+    margin-top: 3px;
+}
+.Yurl
+{
+    color:gray;
+    font-size: 16px;
+}
+.InviteEmail
+{
+    width:55%;
+    height:200px;
+    margin-top: 10px;
+    padding:20px;
+    display: inline-block;
+}
+.SocialMedia
+{
+    width:34%;
+    height:230px;
+    float:right;
+    margin-top:10px;
+    padding:10px;
+    margin-right:10px;
+}
+.SBE
+{
+    color:gray;
+    font-size: 25px;
+}
+input[type=email]
+{
+    width:100%;
+    height:40px;
+    font-size:16px;
+    border-radius: 5px;
+    border:1px solid #aaaaaa;
+    outline-width: 1px;
+    outline-color: blue;
+    padding:10px;
+    margin-top: 5px;
+}
+.icon
+{
+    color:blue;
+    margin-top: 5px;
+}
+.itext
+{
+    text-decoration: none;
+    font-size: 20px;
+    color:#ffb039fd;
+    display: inline-block;
+    margin-left: 15px;
+}
+.itext:hover
+{
+    color:blue;
+}
+.cbtn
+{
+    color:blue;
+    background-color: white;
+    width:10%;
+    font-size: 18px;
+    height:45px;
+    margin-left: 2px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: 45px;
+}
+.cbtn:hover
+{
+    color:white;
+    background-color: blue;
+    cursor: pointer;
+}
+@media (max-width:700px)
+{
+ .InviteEmail
+ {
+     width:100%;
+     display: block;
+     margin: auto;
+     margin-top: 50px;
+ }
+ .main
+ {
+     height:1000px;
+     background-color: whitesmoke;
+ }   
+ .box3
+ {
+    margin-top: 20px;
+    height:700px;
+ }
+ .SocialMedia
+ {
+     width:100%;
+     display: block;
+     float: none;
+     margin: auto;
+}
+.cbtn
+{
+    width:50%;
+    margin-top: 10px;
+}
+input[type=email]
+{
+    width:100%;
+}
+input[type=text]
+{
+    width: 90%;
+}
+.copylink
+{
+    height:150px;
+    margin-top: 20px;
+}
+}
+@media (max-width:280px)
+{
+    .box3
+    {
+        margin-top: 60px;
+    }
+    .box1
+    {
+        height:300px;       
+    }
+}

@@ -1,0 +1,185 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(topBack.jpg);
+  background-size: cover;
+}
+
+.App {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  border: 1px solid #bfbfbf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.format {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  display: block;
+  color: white;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  outline-color: forestgreen;
+  border: 1px solid white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 5px;
+}
+.mob-number
+{
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  outline-color: forestgreen;
+  border: 1px solid white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.leg {
+  color: white;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.field {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border: 1px solid white;
+  max-width: 80%;
+  margin: auto;
+}
+
+input[type="date"] {
+  width: 50%;
+  height: 40px;
+  font-family:'Courier New';
+  font-size: 16px;
+  outline: 0px;
+  border: 1px solid white;
+  color: black;
+}
+
+input[type="date"]:hover {
+  border: none;
+  outline: 2px solid forestgreen;
+}
+
+input[type="text"]:hover {
+  border: none;
+  outline: 2px solid forestgreen;
+}
+
+input[type="email"]:hover {
+  border: none;
+  outline: 2px solid forestgreen;
+}
+
+.select {
+  width: 50%;
+  height: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  outline-color: forestgreen;
+  border: 1px solid white;
+}
+
+.ta {
+  width: 100%;
+  outline-color: forestgreen;
+  outline-width: 2px;
+  border: 1px solid white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.sBtn {
+  width: 50%;
+  height: 40px;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  background-color: forestgreen;
+  border: 0px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.table-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: left;
+  border: 1px solid #bfbfbf;
+}
+
+td {
+  padding: 10px;
+  width: 300px;
+  height: 80px;
+  color: forestgreen;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.eTd {
+  padding: 10px;
+  width: 30%;
+  height: 80px;
+  color: forestgreen;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.tDiv {
+  width: 100%;
+  height: auto;
+  overflow-x: auto;
+}
+
+tr:hover {
+  background-color: whitesmoke;
+}
+
+@media (max-width: 800px) {
+  .App {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .eTd {
+    width: 300px;
+  }
+
+  td {
+    width: 50px;
+    height: 100px;
+  }
+}
